@@ -1,0 +1,157 @@
+* {
+	font-family: monospace;
+}
+.nama {
+	font-family: oswald;
+	color: white;
+}
+
+/* Baris 1 */
+.baris1 {
+	background-image: url(img/gunung.jpg);
+	background-size: cover;
+}
+
+.fotopp {
+	margin-top: 20px;
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+
+.nama {
+	font-size: 28px;
+}
+
+/* baris 2 */
+.teks {
+	text-align: justify;
+}
+
+.about {
+	font-family: viga;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.coding {
+	width: 400px;
+}
+
+/* baris 3 */
+.experience {
+	font-family: viga;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+iframe {
+	width: 100%;
+}
+
+.sertifikat {
+	font-family: viga;
+	font-size: 24px;
+}
+
+.sertifikat1, .sertifikat2, .sertifikat3{
+	width: 100%;
+	padding-top: 22px;
+}
+
+/* Baris 4 */
+.sosial {
+	font-family: viga;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+hr {
+	margin-top: -10px;
+	margin-bottom: 24px;
+	width: 207px;
+	border-top: 3px solid black;
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.navbar-collapse,ul, li, a{
+		font-size: 18px;
+		margin-left: 48px;
+		margin-right: auto;
+
+	}
+
+	/* Baris 1 */
+	.baris1 {
+		background-attachment: fixed;
+		background-position: 0 -400px;
+	}
+
+	.fotopp {
+		margin-top: 20px;
+		width: 250px;
+		margin-bottom: 20px;
+	}
+
+	h1 {
+		font-family: monospace;
+	}
+
+	/* baris 2 */
+	.teks {
+		text-align: justify;
+	}
+
+	.about {
+		font-family: viga;
+		margin-top: 10px;
+		font-size: 32px;
+	}
+
+	.coding {
+		width: 600px;
+	}
+
+	/* Baris 3 */
+	.experience {
+		font-family: viga;
+		margin-top: 10px;
+		font-size: 32px;
+	}
+
+	iframe {
+		width: 100%;
+		height: 500px;
+	}
+
+	.sertifikat {
+		font-family: viga;
+		margin-top: 10px;
+		font-size: 32px;
+	}
+
+	.sertifikat1, .sertifikat2, .sertifikat3{
+		width: 470px;
+		margin-right: 15px;
+	}
+
+	/* Baris 4 */
+	.sosial {
+		font-size: 32px;
+	}
+
+	hr {
+		margin-top: -10px;
+		margin-bottom: 24px;
+		width: 250px;
+		border-top: 3px solid black;
+	}
+
+
+	/* Baris 5 */
+
+}
